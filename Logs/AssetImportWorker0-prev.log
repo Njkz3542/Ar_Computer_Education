@@ -15,11 +15,11 @@ D:/UnityProject/AR/Ar_Computer_Education
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51268
+53647
 Successfully changed project path to: D:/UnityProject/AR/Ar_Computer_Education
 D:/UnityProject/AR/Ar_Computer_Education
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 29.54 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 27.82 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56704
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56080
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001363 seconds.
+Registered in 0.001372 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 25.64 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 26.77 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.361 seconds
+- Completed reload, in  1.415 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001858 seconds.
+Registered in 0.001861 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.832 seconds
+- Completed reload, in  0.860 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1732 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 75.9 MB.
-System memory in use after: 76.0 MB.
+System memory in use before: 76.0 MB.
+System memory in use after: 76.1 MB.
 
 Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2166.
-Total: 2.244400 ms (FindLiveObjects: 0.158400 ms CreateObjectMapping: 0.058100 ms MarkObjects: 1.929900 ms  DeleteObjects: 0.097200 ms)
+Total: 1.803900 ms (FindLiveObjects: 0.188100 ms CreateObjectMapping: 0.058600 ms MarkObjects: 1.499500 ms  DeleteObjects: 0.056600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -79,101 +79,97 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/pc low poly .obj
-  artifactKey: Guid(d5cf5c60cc4dc9342bf70a72f92a1e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pc low poly .obj using Guid(d5cf5c60cc4dc9342bf70a72f92a1e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4114b4b3bb3b84c18002020115ad7977') in 0.316267 seconds 
-  Import took 0.318637 seconds .
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.008941 seconds 
+  Import took 0.011749 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 45.843932 seconds.
-  path: Assets/pc.obj
-  artifactKey: Guid(ca021cb7222024e469ffa9fa700f02ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pc.obj using Guid(ca021cb7222024e469ffa9fa700f02ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de0a3f3938aff2be6f23b97ce49e744') in 0.058830 seconds 
-  Import took 0.063809 seconds .
+  Time since last request: 10.680768 seconds.
+  path: Assets/Model
+  artifactKey: Guid(67ff3ea608f5e30438fa3ebc5e827b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model using Guid(67ff3ea608f5e30438fa3ebc5e827b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ce68e557bc0d56d6b3e232773890efa') in 0.006533 seconds 
+  Import took 0.011165 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 385.265667 seconds.
-  path: Assets/Intel Core I7 3960X.c4d
-  artifactKey: Guid(c0bb9630de4c1274fa67dbbcb6fbbfa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Intel Core I7 3960X.c4d using Guid(c0bb9630de4c1274fa67dbbcb6fbbfa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assets/Intel Core I7 3960X.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
- -> (artifact id: 'ec900bcab8e57f20dc9eb4dde361fa46') in 0.014054 seconds 
-  Import took 0.016856 seconds .
+  Time since last request: 178.525441 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(6330695580b70ec43934cf7895b143a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(6330695580b70ec43934cf7895b143a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '390b910b738af3044f0b88275fd52f75') in 0.008712 seconds 
+  Import took 0.011973 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.906022 seconds.
-  path: Assets/Thermaltake_TR2_1000W.obj
-  artifactKey: Guid(3857820247339064c8c03f7494936e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thermaltake_TR2_1000W.obj using Guid(3857820247339064c8c03f7494936e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece8d7bed08ca4324e78cc2cccf5cb7d') in 0.278996 seconds 
-  Import took 0.284256 seconds .
+  Time since last request: 0.720909 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12df08e99687840cbfd483445a792eb0') in 0.014745 seconds 
+  Import took 0.017258 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 34.721702 seconds.
-  path: Assets/Asus_P6T6.obj
-  artifactKey: Guid(19deacd6258b47e478f7c9d1f839a5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asus_P6T6.obj using Guid(19deacd6258b47e478f7c9d1f839a5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aae762900c96d3d61919dfc38cdb334') in 2.411346 seconds 
-  Import took 2.420077 seconds .
+  Time since last request: 93.826521 seconds.
+  path: Assets/Model/2621-videokarta-radeon
+  artifactKey: Guid(949be5f852cc189448e9d0cc14440f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/2621-videokarta-radeon using Guid(949be5f852cc189448e9d0cc14440f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96c89ee95db5bb8e8e5489e9e2dd7537') in 0.007472 seconds 
+  Import took 0.011160 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 652.477565 seconds.
-  path: Assets/corei7.obj
-  artifactKey: Guid(2cc9a3705bd3b3648800fb5082c998e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/corei7.obj using Guid(2cc9a3705bd3b3648800fb5082c998e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f308f15171b7c8377667462f0e6d2b5') in 0.035727 seconds 
-  Import took 0.039947 seconds .
+  Time since last request: 0.890652 seconds.
+  path: Assets/Model/2920-blok-pitaniya-thermaltake-
+  artifactKey: Guid(1fef6093e091d8144b439f61c8834951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/2920-blok-pitaniya-thermaltake- using Guid(1fef6093e091d8144b439f61c8834951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1e209bf59f9954566390df626e78704') in 0.006794 seconds 
+  Import took 0.009196 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 503.917541 seconds.
-  path: Assets/culer.obj
-  artifactKey: Guid(9ff7b36215bf7e44fbad80e867f6e410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/culer.obj using Guid(9ff7b36215bf7e44fbad80e867f6e410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eeef4f4276790fb3ae5d69beddb5fe0') in 0.029422 seconds 
-  Import took 0.035467 seconds .
+  Time since last request: 0.361426 seconds.
+  path: Assets/Model/2923-materinskaya-plata-asus-
+  artifactKey: Guid(994b6a20cf0f7804583dcd033f96943a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/2923-materinskaya-plata-asus- using Guid(994b6a20cf0f7804583dcd033f96943a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed26c9ce3c9ef6f6a90c519f1183219') in 0.007090 seconds 
+  Import took 0.009474 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1729.458155 seconds.
-  path: Assets/Quick memory.fbx
-  artifactKey: Guid(3fe66dd7cf9aa4d46844957fe36f43ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quick memory.fbx using Guid(3fe66dd7cf9aa4d46844957fe36f43ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef2d47a418bf0e8fdd009cef0ac3e8d') in 0.059263 seconds 
-  Import took 0.065183 seconds .
+  Time since last request: 0.477599 seconds.
+  path: Assets/Model/dark-rock-pro-4
+  artifactKey: Guid(afef503973a116c4ba4fc911aa5de933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/dark-rock-pro-4 using Guid(afef503973a116c4ba4fc911aa5de933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c02593b60052ad7944c7ffe398f8dcc') in 0.008901 seconds 
+  Import took 0.011810 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 469.837348 seconds.
-  path: Assets/Be quiet dark rock pro 4.obj
-  artifactKey: Guid(1f25cbc4b6dee2e49bcdc85031160c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Be quiet dark rock pro 4.obj using Guid(1f25cbc4b6dee2e49bcdc85031160c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a35a48c14cdadbad2914a2549a56f9de') in 0.031743 seconds 
-  Import took 0.036122 seconds .
+  Time since last request: 0.407295 seconds.
+  path: Assets/Model/processornyjj-kuler-26628-3dlancer-net
+  artifactKey: Guid(1be4db1adb9d8a843ba5ce235304821f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/processornyjj-kuler-26628-3dlancer-net using Guid(1be4db1adb9d8a843ba5ce235304821f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f7ea19d66ee7db92508924a9b25adc') in 0.007938 seconds 
+  Import took 0.010494 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/be-quiet_Logo_neg_RGB.jpeg
-  artifactKey: Guid(61dd55e9a99762c438f00abfe489fe03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/be-quiet_Logo_neg_RGB.jpeg using Guid(61dd55e9a99762c438f00abfe489fe03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '995cdccd78de22eaef40f70964d15b55') in 0.049634 seconds 
-  Import took 0.052926 seconds .
+  Time since last request: 0.950577 seconds.
+  path: Assets/Model/qopsqumkzvgg-Intel_Corei7
+  artifactKey: Guid(3dfc5353522f6d24a914db4c0b604949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/qopsqumkzvgg-Intel_Corei7 using Guid(3dfc5353522f6d24a914db4c0b604949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d28f0466e1aa6860392966721d489cb') in 0.007364 seconds 
+  Import took 0.010087 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 27.046942 seconds.
-  path: Assets/Be quiet dark rock pro 4.mtl
-  artifactKey: Guid(cb4b5b67868e74648b2d5208dd4ea2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Be quiet dark rock pro 4.mtl using Guid(cb4b5b67868e74648b2d5208dd4ea2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b2efb5d52e0434f9e6e7210db53a099') in 0.006072 seconds 
-  Import took 0.010793 seconds .
+  Time since last request: 0.721667 seconds.
+  path: Assets/Model/System unit
+  artifactKey: Guid(491a4f8edaf39cf48a2cf0ad1478384c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/System unit using Guid(491a4f8edaf39cf48a2cf0ad1478384c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe3dc5847d2e8b37679e0ad7ca2f1098') in 0.007921 seconds 
+  Import took 0.010677 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001256 seconds.
-  path: Assets/Be quiet dark rock pro 4.mtl
-  artifactKey: Guid(cb4b5b67868e74648b2d5208dd4ea2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Be quiet dark rock pro 4.mtl using Guid(cb4b5b67868e74648b2d5208dd4ea2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b2efb5d52e0434f9e6e7210db53a099') in 0.003703 seconds 
-  Import took 0.006957 seconds .
+  Time since last request: 0.451381 seconds.
+  path: Assets/Model/RAM
+  artifactKey: Guid(5774db182308b654d933ce851c104f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/RAM using Guid(5774db182308b654d933ce851c104f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89189861b328fc21fd651264285b5d73') in 0.007006 seconds 
+  Import took 0.010002 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
