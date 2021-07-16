@@ -9,10 +9,19 @@ public class ComputerController : MonoBehaviour
 {
     [SerializeField] private float deltaTimeMove = 1.5f;
     [SerializeField] private List<PartData> Parts;
+    private List<Vector3> startPositions = new List<Vector3>();
 
     private bool canDismantle = true;
     private bool isComputerDismantled = false;
-    
+
+    private void Start()
+    {
+        for (int i = 0; i < Parts.Count; i++)
+        {
+            startPositions.Add(Parts[i].Part.position);
+        }
+    }
+
     private void Update()
     {
         if (canDismantle && Input.GetMouseButtonDown(0))
@@ -55,7 +64,7 @@ public class ComputerController : MonoBehaviour
 
         for (int i = Parts.Count - 1; i >= 0; i--)
         {
-            Parts[i].Part.DOMove(Parts[i].StartPos, deltaTimeMove).SetEase(Ease.Linear);
+            Parts[i].Part.DOMove(startPositions[i], deltaTimeMove).SetEase(Ease.Linear);
             PartInfo partInfo;
             if(Parts[i].Part.TryGetComponent(out partInfo))
             {
@@ -67,15 +76,6 @@ public class ComputerController : MonoBehaviour
 
         canDismantle = true;
     }
-
-    [Button("Set Start Positions")]
-    private void SetStartPos()
-    {
-        foreach (PartData partData in Parts)
-        {
-            partData.SetStartPos();
-        }
-    }
 }
 
 [Serializable]
@@ -83,10 +83,4 @@ public struct PartData
 {
     public Transform Part;
     public Transform Destination;
-    public Vector3 StartPos;
-
-    public void SetStartPos()
-    {
-        StartPos = Part.position;
-    }
 }
