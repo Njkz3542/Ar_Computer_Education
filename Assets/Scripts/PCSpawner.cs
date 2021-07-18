@@ -10,9 +10,13 @@ public class PCSpawner : MonoBehaviour
 
     private ARPlaneManager aRPlaneManager;
     private ARRaycastManager aRRaycastManager;
+    private Transform spawnedPC;
 
     bool isFindPlane;
     bool isSpanwed;
+
+    public bool IsSpanwed { get => isSpanwed; }
+
     private void Start()
     {
         aRPlaneManager = FindObjectOfType<ARPlaneManager>();
@@ -27,9 +31,15 @@ public class PCSpawner : MonoBehaviour
         isFindPlane = true;
     }
 
+    Vector3 pcStartPos;
+
     private void Update()
     {
-        if (isSpanwed) return;
+        if (isSpanwed)
+        {
+            spawnedPC.position = pcStartPos;
+            return;
+        }
         if (!isFindPlane) return;
 
         if (Input.touchCount > 0)
@@ -46,7 +56,8 @@ public class PCSpawner : MonoBehaviour
     private void SpawnPC(Vector3 pos)
     {
         //Vector3 spawnPos = new Vector3(0, -1, 2);
-        Instantiate(PCPrefab, pos, Quaternion.identity);
+        spawnedPC =  Instantiate(PCPrefab, pos, Quaternion.identity).transform;
+        pcStartPos = spawnedPC.position;
         isSpanwed = true;
     }
 }
