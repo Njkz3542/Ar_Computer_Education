@@ -57,6 +57,9 @@ public class PCSpawner : MonoBehaviour
     {
         //Vector3 spawnPos = new Vector3(0, -1, 2);
         spawnedPC =  Instantiate(PCPrefab, pos, Quaternion.identity).transform;
+        Vector3 lookPos = Camera.main.transform.position;
+        lookPos.y = spawnedPC.position.y;
+        spawnedPC.LookAt(lookPos);
         pcStartPos = spawnedPC.position;
         isSpanwed = true;
     }
