@@ -70,7 +70,7 @@ public class PCSpawner : MonoBehaviour
         aRPlaneManager.enabled = false;
         foreach (var item in aRPlaneManager.trackables)
         {
-            item.enabled = false;
+            item.gameObject.SetActive(false);
         }
     }
 }
