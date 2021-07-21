@@ -62,5 +62,15 @@ public class PCSpawner : MonoBehaviour
         spawnedPC.LookAt(lookPos);
         pcStartPos = spawnedPC.position;
         isSpanwed = true;
+        DeletePlanes();
+    }
+
+    private void DeletePlanes()
+    {
+        aRPlaneManager.enabled = false;
+        foreach (var item in aRPlaneManager.trackables)
+        {
+            item.enabled = false;
+        }
     }
 }
