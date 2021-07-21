@@ -23,11 +23,14 @@ public class CameraRaycaster : MonoBehaviour
 
         if (Physics.Raycast(ray, out hit, Mathf.Infinity))
         {
-            if (hit.collider.TryGetComponent(out PartInfo partInfo))
+            if (infoText.text != null)
             {
-                scopeObject.SetActive(true);
-                scopeObject.transform.position = hit.point;
-                infoText.text = partInfo.GetInfo();
+                if (hit.collider.TryGetComponent(out PartInfo partInfo))
+                {
+                    scopeObject.SetActive(true);
+                    scopeObject.transform.position = hit.point;
+                    infoText.text = partInfo.GetInfo();
+                }
             }
         }
         else
