@@ -19,7 +19,7 @@ public class CameraRaycaster : MonoBehaviour
     void Update()
     {
         RaycastHit hit;
-        Ray ray = camera.ScreenPointToRay(Input.mousePosition);
+        Ray ray = camera.ScreenPointToRay(new Vector2(Screen.width/2, Screen.height / 2));
 
         if (Physics.Raycast(ray, out hit, Mathf.Infinity))
         {
